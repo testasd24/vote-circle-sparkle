@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import AnimatedLogo from "@/components/AnimatedLogo";
+import Logo from "@/components/Logo";
 import { Vote, Shield, BarChart3, Users } from "lucide-react";
 
 const Index = () => {
@@ -8,6 +9,11 @@ const Index = () => {
       {/* Animated gradient background */}
       <div className="fixed inset-0 bg-gradient-to-br from-background via-background to-blue-950/20 -z-10" />
       
+      {/* Navbar */}
+      <nav className="container mx-auto px-4 py-6">
+        <Logo />
+      </nav>
+
       {/* Decorative elements */}
       <div className="fixed top-20 right-20 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl -z-10 animate-pulse-glow" />
       <div className="fixed bottom-20 left-20 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl -z-10 animate-pulse-glow" style={{ animationDelay: '1.5s' }} />
