@@ -15,8 +15,8 @@ const Index = () => {
       </nav>
 
       {/* Decorative elements */}
-      <div className="fixed top-20 right-20 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl -z-10 animate-pulse-glow" />
-      <div className="fixed bottom-20 left-20 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl -z-10 animate-pulse-glow" style={{ animationDelay: '1.5s' }} />
+      <div className="fixed top-20 right-20 w-96 h-96 bg-primary/5 rounded-full blur-3xl -z-10 animate-pulse-glow" />
+      <div className="fixed bottom-20 left-20 w-96 h-96 bg-secondary/5 rounded-full blur-3xl -z-10 animate-pulse-glow" style={{ animationDelay: '1.5s' }} />
 
       {/* Hero Section */}
       <section className="container mx-auto px-4 pt-20 pb-32">
@@ -27,7 +27,7 @@ const Index = () => {
               <p className="text-sm font-semibold text-muted-foreground tracking-wider uppercase">
                 Sistema de Votación Inteligente
               </p>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-500 bg-clip-text text-transparent leading-tight">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent leading-tight">
                 Bienvenido a VoteSystem
               </h1>
               <p className="text-xl text-muted-foreground max-w-xl">
@@ -49,15 +49,15 @@ const Index = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 pt-8">
               <div className="space-y-1">
-                <p className="text-3xl font-bold text-cyan-400">98%</p>
+                <p className="text-3xl font-bold text-primary">98%</p>
                 <p className="text-sm text-muted-foreground">Precisión</p>
               </div>
               <div className="space-y-1">
-                <p className="text-3xl font-bold text-cyan-400">24/7</p>
+                <p className="text-3xl font-bold text-secondary">24/7</p>
                 <p className="text-sm text-muted-foreground">Disponible</p>
               </div>
               <div className="space-y-1">
-                <p className="text-3xl font-bold text-cyan-400">100%</p>
+                <p className="text-3xl font-bold text-accent">100%</p>
                 <p className="text-sm text-muted-foreground">Seguro</p>
               </div>
             </div>
@@ -104,7 +104,7 @@ const Index = () => {
               className="group p-6 rounded-xl bg-card border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_20px_rgba(14,165,233,0.2)] animate-fade-in"
               style={{ animationDelay: feature.delay }}
             >
-              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-cyan-500/20 to-blue-600/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                 <feature.icon className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-lg font-semibold mb-2 text-foreground">
@@ -120,8 +120,8 @@ const Index = () => {
 
       {/* CTA Section */}
       <section className="container mx-auto px-4 pb-20">
-        <div className="relative rounded-2xl bg-gradient-to-r from-cyan-500/10 to-blue-600/10 border border-primary/20 p-12 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/5 to-blue-600/5 animate-pulse-glow" />
+        <div className="relative rounded-2xl bg-gradient-to-r from-primary/10 to-secondary/10 border border-primary/20 p-12 overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-secondary/5 animate-pulse-glow" />
           <div className="relative z-10 text-center space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
               ¿Listo para comenzar?
